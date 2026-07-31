@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "fmusim",
+    "fmusim-gui",
 ]
 resolver = "3"
 

@@ -77,6 +77,7 @@ pub fn simulate_fmu(
         log_file: args.log_file.as_ref().map(PathBuf::from),
         initial_fmu_state_file: args.initial_fmu_state_file.as_ref().map(PathBuf::from),
         final_fmu_state_file: args.final_fmu_state_file.as_ref().map(PathBuf::from),
+        cancel: None,
     };
 
     let interface_type = match &args.interface_type {
